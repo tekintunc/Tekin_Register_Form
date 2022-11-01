@@ -1,0 +1,1 @@
+Bu bir register formudur.HTML dosyası ve CSS dosyası ayrı ayrı hazırlanmıstır.
