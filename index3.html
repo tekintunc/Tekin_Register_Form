@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./style3.css" />
+</head>
+
+<body>
+
+    <div id="genel">
+        <form action="tekin.php">
+            <h1>Register Form</h1>
+            <!--Her bir label ve inputu birer div içine alarak Css'te şekil verdim-->
+            <div><label for="fname">Fullname</label></div>
+            <div><input type="text" id="fname" name="fname" required></div>
+            <div><label for="email">Email</label></div>
+            <div><input type="email" id="email" name="email" required></div>
+            <div><label for="phone">Phone</label></div>
+            <div><input type="tel" id="phone" name="phone" required></div>
+            <div> <label for="pwd">Password</label></div>
+            <div> <input type="password" id="pwd" name="pwd" required></div>
+            <div> <input type="submit" value="Send"></div>
+        </form>
+    </div>
+
+</body>
+
+</html>
